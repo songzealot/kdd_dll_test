@@ -179,7 +179,7 @@ namespace FeatureExtractor {
 	// 함수 반환형 void에서 string으로 변경
 	// Allow using localtime instead of localtime_s 
 	#pragma warning(disable : 4996)
-	string ConversationFeatures::print(bool print_extra_features)
+	string ConversationFeatures::print(bool print_extra_features) const
 	{
 		stringstream ss;
 

@@ -124,8 +124,7 @@ namespace FeatureExtractor {
 		 */
 
 		//함수 반환형 void에서 string으로 변경
-		//const 삭제
-		std::string print(bool print_extra_features = true);
+		std::string print(bool print_extra_features = true) const;
 
 		/**
 		 * Human readable print to stdout
